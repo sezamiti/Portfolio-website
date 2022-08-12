@@ -1,4 +1,4 @@
-.container.portfolio__container{
+.portfolio__container{
     display: grid;         
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -38,13 +38,18 @@
 
 @media screen and (max-width: 1024px){
     .portfolio__container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         gap: 1.2rem;
+        
+    }
+
+    .portfolio__item{
+       
     }
 }
 @media screen and (max-width: 600px){
     .portfolio__container{
-        grid-template-columns: 1fr 2fr;;
+        grid-template-columns: 1fr;;
         gap: 1rem;
     }
 }
