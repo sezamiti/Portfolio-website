@@ -29,27 +29,7 @@ const data =[
     github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
     demo: 'https://chat-infinity.netlify.app/'
   },
-  {
-    id:4,
-    image: IMG4,
-    title: 'Chat App using React and Socket',
-    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
-    demo: 'https://chat-infinity.netlify.app/'
-  },
-  {
-    id:5,
-    image: IMG5,
-    title: 'Chat App using React and Socket',
-    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
-    demo: 'https://chat-infinity.netlify.app/'
-  },
-  {
-    id:6,
-    image: IMG6,
-    title: 'Chat App using React and Socket',
-    github: 'https://github.com/anantraghuvanshi/chat-app-using-react-socketIO',
-    demo: 'https://chat-infinity.netlify.app/'
-  }
+  
 
 ]
   
