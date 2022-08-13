@@ -29,6 +29,10 @@
     gap: 1rem;
     margin-bottom: 1rem;
 }
+h3{
+    display: flex;
+    justify-content: center;
+}
 
 
 
