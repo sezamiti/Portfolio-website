@@ -4,12 +4,16 @@ import ME from "../../assets/avatar.jpg";
 import { FiAward } from "react-icons/fi";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+
+  const { t } = useTranslation();
+
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About Serik</h2>
+      <h5>{t('Get to Know')}</h5>
+      <h2>{t('About Serik')}</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -22,8 +26,8 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FiAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>Over 5 years</small>
+              <h5>{t('Experience')}</h5>
+              <small>{t('Over 1 years')}</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -32,8 +36,8 @@ const About = () => {
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>15+ completed projects</small>
+              <h5>{t('Projects')}</h5>
+              <small>{('15+ completed projects')}</small>
             </article>
           </div>
           <p>
@@ -43,7 +47,7 @@ const About = () => {
             magni aspernatur? Et.
           </p>
           <a href="#contact" className="btn third btn-primary about-btn">
-            Talk To Serik
+          {t('Talk To Me')}
           </a>
         </div>
       </div>

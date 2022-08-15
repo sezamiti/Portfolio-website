@@ -2,20 +2,24 @@ import React from 'react'
 import './footer.css';
 import { BsStackOverflow} from 'react-icons/bs';
 import { FaInstagram} from 'react-icons/fa';
-import { AiOutlineMedium} from 'react-icons/ai';
 import { FaTelegramPlane } from "react-icons/fa";
 
-const footer = () => {
+import { useTranslation } from "react-i18next";
+
+const Footer = () => {
+
+  const { t } = useTranslation();
+
   return (
     <footer>
       <a href="#" className='footer__logo'>Dossumbekov Serik</a>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#">{t('Home')}</a></li>
+        <li><a href="#about">{t('About Serik')}</a></li>
+        <li><a href="#experience">{t('Experience')}</a></li>
+        <li><a href="#portfolio">{t("Portfolio")}</a></li>
+        <li><a href="#contact">{t("Contact me")}</a></li>
 
       </ul>
 
@@ -33,4 +37,4 @@ const footer = () => {
   )
 }
 
-export default footer;
+export default Footer;

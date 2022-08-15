@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/porfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
+import { useTranslation } from "react-i18next";
 
 
 const data =[
@@ -34,10 +35,13 @@ const data =[
 
 
 const Portfolio = () => {
+
+  const { t } = useTranslation();
+
   return (
     <section id="portfolio">
-      <h5>Serik's Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>{t("Serik's Recent Work")}</h5>
+      <h2>{t("Portfolio")}</h2>
 
       <div className="container portfolio__container">
       {

@@ -66,6 +66,12 @@ header{
     font-size: 0.9rem;
 }
 
+.flags {
+    position: absolute;
+    right: 0;
+    top: 40px; left: 40px;
+}
+
 /* =============MEDIA QUERIES(MEDIUM DEVICES)================*/
 @media screen and (max-width:1024px){
     header{
@@ -82,5 +88,13 @@ header{
     .header__socials,.scroll__down{
         display: none;
     }
+
+    .flags {
+        position: absolute;
+        right: 0;
+        padding-right: 0px;
+        padding-top: 0px;
+    }
     
 }
+

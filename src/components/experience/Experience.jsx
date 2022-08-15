@@ -1,16 +1,22 @@
 import React from "react";
 import "./experience.css";
 import { BsPatchCheckFill } from "react-icons/bs";
+import { useTranslation } from "react-i18next";
 
-const experience = () => {
+
+
+const Experience = () => {
+
+  const { t } = useTranslation();
+  
   return (
     <section id="experience">
-      <h5>Skills I have</h5>
-      <h2>Experience</h2>
+      <h5>{t('Skills I have')}</h5>
+      <h2>{t('')}</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Development</h3>
+          <h3>{t('Development')}</h3>
           <div className="experience__content">
             <article className="experience__details">
               <BsPatchCheckFill className= 'experience__details-icon'  />
@@ -77,38 +83,38 @@ const experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className= 'experience__details-icon' />
               <div>
-                <h4>Good communication</h4>
+                <h4>{t('Good communication')}</h4>
                 
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className= 'experience__details-icon' />
               <div>
-                <h4>Creativity </h4>
+                <h4>{t('Creativity')} </h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className= 'experience__details-icon' />
               <div>
-                <h4>Communication Skills</h4>
+                <h4>{t('Teamwork skills')}</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className= 'experience__details-icon' />
               <div>
-                <h4>Teamwork</h4>
+                <h4>{t('Adaptability')}</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className= 'experience__details-icon' />
               <div>
-                <h4>Growth Mindset</h4>
+                <h4>{t('Growth Mindset')}</h4>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className= 'experience__details-icon' />
               <div>
-                <h4>Problem-solving</h4>
+                <h4>{t('Problem-solving')}</h4>
               </div>
             </article>
             
@@ -119,4 +125,4 @@ const experience = () => {
   );
 };
 
-export default experience;
+export default Experience;
