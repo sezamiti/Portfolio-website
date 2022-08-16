@@ -41,10 +41,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
-            obcaecati placeat ipsa quisquam tempore explicabo doloribus, atque,
-            non et reprehenderit vero, minus mollitia consequuntur saepe illo ea
-            magni aspernatur? Et.
+          {t('text')}
           </p>
           <a href="#contact" className="btn third btn-primary about-btn">
           {t('Talk To Me')}

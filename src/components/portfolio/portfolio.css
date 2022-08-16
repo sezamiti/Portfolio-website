@@ -59,6 +59,7 @@ h3{
         flex-wrap: wrap;
         justify-content: center;
         
+        
     }
     .portfolio__item{
         width: 100%;
@@ -67,8 +68,7 @@ h3{
     .portfolio__item-cta{
         display: flex;
         flex-direction: column;
-        width: auto;
-       
+        width: auto;  
     }
     
    
