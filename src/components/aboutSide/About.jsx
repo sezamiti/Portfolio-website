@@ -41,7 +41,7 @@ const About = () => {
             </article>
           </div>
           <p>
-          {t('text')}
+          {t('Hello again everyone! So, you already know that my name is Serik. A little about myself: student, 28 y.o., I live in Taraz, Kazakhstan. I like to develop, gain new knowledge. Able to learn independently. I like to get new experience, solve interesting problems. Personal traits: perseverance, high capacity for work, communication skills, enthusiasm, honesty, resistance to stress, ability to solve new problems, quick learning, conscientiousness. I can read technical literature both in Russian and in English.  I have an inquisitive mind and a desire to develop.')}
           </p>
           <a href="#contact" className="btn third btn-primary about-btn">
           {t('Talk To Me')}

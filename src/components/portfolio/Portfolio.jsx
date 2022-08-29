@@ -11,7 +11,7 @@ const data =[
     id:1,
     image: IMG1,
     title: 'Movies search',
-    github: 'https://github.com/sezamiti/Starter-project-with-api',
+    github: 'https://sezamiti.github.io/movies-project-with-api/',
     demo: 'https://sezamiti.github.io/Starter-project-with-api/'
   },
   {
