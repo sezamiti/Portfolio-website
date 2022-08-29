@@ -3,6 +3,8 @@ import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/porfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
+import IMG4 from "../../assets/portfolio4.png";
+import IMG5 from "../../assets//portfolio5.png";
 import { useTranslation } from "react-i18next";
 
 
@@ -11,8 +13,8 @@ const data =[
     id:1,
     image: IMG1,
     title: 'Movies search',
-    github: 'https://sezamiti.github.io/movies-project-with-api/',
-    demo: 'https://sezamiti.github.io/Starter-project-with-api/'
+    github: 'https://github.com/sezamiti/movies-project-with-api',
+    demo: 'https://sezamiti.github.io/movies-project-with-api/'
   },
   {
     id:2,
@@ -28,6 +30,22 @@ const data =[
     github: 'https://github.com/sezamiti/Blog-Q-A',
     demo: 'https://my-project-1-943c9.web.app/'
   },
+  {
+    id:4,
+    image: IMG4,
+    title: 'ShowCase',
+    github: 'https://github.com/sezamiti/ShowCase',
+    demo: 'https://sezamiti.github.io/ShowCase/'
+  },
+  {
+    id:5,
+    image: IMG5,
+    title: 'ShowCase',
+    github: 'https://github.com/sezamiti/Api-training-marvel-',
+    demo: 'https://marvel-taupe-chi.vercel.app/'
+  },
+
+  
   
 
 ]
