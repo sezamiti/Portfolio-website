@@ -44,7 +44,7 @@ const data =[
   {
     id:5,
     image: IMG5,
-    title: 'ShowCase',
+    title: 'Marvel information portal',
     github: 'https://github.com/sezamiti/Api-training-marvel-',
     demo: 'https://marvel-taupe-chi.vercel.app/',
     description: 'React...'
