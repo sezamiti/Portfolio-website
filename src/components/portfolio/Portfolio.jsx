@@ -5,6 +5,7 @@ import IMG2 from "../../assets/porfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets//portfolio5.png";
+import IMG6 from '../../assets/portfolio6.png'
 import { useTranslation } from "react-i18next";
 
 
@@ -49,6 +50,14 @@ const data =[
     demo: 'https://marvel-taupe-chi.vercel.app/',
     description: 'React...'
   },
+  {
+    id:6,
+    image: IMG6,
+    title: 'Site copy "TMDB"',
+    github: 'https://github.com/sezamiti/Copy-of-themoviedb',
+    demo: 'https://themoviedb-mocha.vercel.app/',
+    description: 'React + Tilwind + axios + fontawesome'
+  },
 
   
   
@@ -75,7 +84,7 @@ const Portfolio = () => {
             <img src={image} alt={title} />
           </div>
           <h3>{title}</h3>
-          <h3>{description}</h3>
+          <h3 className="descr">{description}</h3>
           <div className="portfolio__item-cta">
             <a
               href={github}

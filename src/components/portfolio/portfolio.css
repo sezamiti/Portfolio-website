@@ -37,6 +37,10 @@ h3{
     justify-content: center;
 }
 
+.descr{
+    display: flex;
+}
+
  h5 {
     margin-top: 1rem;          
 }
