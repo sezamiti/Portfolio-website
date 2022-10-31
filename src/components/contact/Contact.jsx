@@ -8,12 +8,13 @@ import { useTranslation } from "react-i18next";
 
 
 
+
 const Contact = () => {
 
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    alert("Awesome! Your message has been sent.");
     emailjs.sendForm('service_t6tvbvd', 'template_oihbcbs', form.current, '6Azocf9FXQUQT-m71')
       .then((result) => {
           console.log(result.text);
@@ -22,6 +23,8 @@ const Contact = () => {
       });
       e.target.reset();
   };
+
+
 
 
   const { t } = useTranslation();
@@ -55,7 +58,7 @@ const Contact = () => {
           <input type="text" name="name" placeholder={t('Your Full Name')} required/>
           <input type="email" name="email" placeholder={t('Your Email')} required/>
           <textarea name="message" placeholder={t('Type Your Message Here')}  rows="7" required></textarea>
-          <button type="submit" className="btn third about-btn">Send Message</button>
+          <button type="submit" className="btn third about-btn" >Send Message</button> 
         </form>
       </div>
     </section>
